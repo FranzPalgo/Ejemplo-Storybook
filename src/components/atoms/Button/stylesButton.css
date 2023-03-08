@@ -1,0 +1,12 @@
+:root{
+    --verde-fuerte: hsl(120, 59%, 31%);
+}
+
+.primary{
+    background-color: blueviolet;
+    cursor: pointer;
+}
+
+.primary:hover{
+    background-color: var(--verde-fuerte);
+}
