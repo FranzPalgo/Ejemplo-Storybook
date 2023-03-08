@@ -5,4 +5,4 @@ export default{
     title: 'atomo/Boton',
     component: Button,
 }
-export const Default = () => <Button/>
+export const Default = () => <Button/> 
