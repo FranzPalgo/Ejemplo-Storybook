@@ -2,11 +2,27 @@
     --verde-fuerte: hsl(120, 59%, 31%);
 }
 
-.primary{
-    background-color: blueviolet;
+.button{
     cursor: pointer;
+    border: 8px solid black;
 }
 
-.primary:hover{
+.type-primary{
+    background-color: blueviolet;
+}
+
+.type-primary:hover{
     background-color: var(--verde-fuerte);
+}
+
+.type-secondary{
+    background-color: rgb(255, 0, 0);
+}
+.type-secondary:hover{
+    background-color: rgb(204, 91, 91);
+}
+
+.is-disabled{
+    opacity: 0.4;
+    pointer-events: none;
 }
